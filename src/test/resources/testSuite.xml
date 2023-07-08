@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Airtel Test Suite">
+	<test name="Airtel Home Test">			
+		<classes>			
+			<class name = "com.airtel.scripts.AirtelHomeTest" />			
+		</classes>
+	</test>
+	<test name="Airtel User Test">			
+		<classes>			
+			<class name = "com.airtel.scripts.AirtelLoginUserTest" />			
+		</classes>
+	</test>
+</suite>
